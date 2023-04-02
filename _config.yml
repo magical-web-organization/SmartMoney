@@ -1,0 +1,107 @@
+title: Smart Money
+tagline: 'One Smart Decision at a Time'
+description: "Smart Money is your go-to source for personalized financial advice, tips, and resources. From budgeting and saving to investment strategies and retirement planning, we've got you covered."
+url: https://smartmoney.wiki
+repo: SmartMoney
+google_analytics_id: G-T3W87H4PD2
+
+permalink: ':categories/:title.html'
+timezone: Europe/Istanbul
+
+exclude: ["z_serve.bat", "*.ai", "install.php"]
+
+collections_dir: data
+collections:
+  budgeting-and-saving-strategies:
+    name: Budgeting and Saving Strategies
+    output: true
+    permalink: /:collection/:name.html
+
+  credit-cards-and-debt-management:
+    name: Credit Cards and Debt Management
+    output: true
+    permalink: /:collection/:name.html
+
+  investment-strategies:
+    name: Investment Strategies
+    output: true
+    permalink: /:collection/:name.html
+
+  retirement-planning:
+    name: Retirement Planning
+    output: true
+    permalink: /:collection/:name.html
+
+  taxes-and-tax-planning:
+    name: Taxes and Tax Planning
+    output: true
+    permalink: /:collection/:name.html
+
+  frugality-and-simple-living:
+    name: Frugality and Simple Living
+    output: true
+    permalink: /:collection/:name.html
+
+  travel-and-leisure-on-a-budget:
+    name: Travel and Leisure on a Budget
+    output: true
+    permalink: /:collection/:name.html
+
+  personal-finance-tools-and-resources:
+    name: Personal Finance Tools and Resources
+    output: true
+    permalink: /:collection/:name.html
+
+  wealth-management-and-asset-allocation:
+    name: Wealth Management and Asset Allocation
+    output: true
+    permalink: /:collection/:name.html
+
+  student-loans-and-financial-aid:
+    name: Student Loans and Financial Aid
+    output: true
+    permalink: /:collection/:name.html
+
+  small-business-finance-and-accounting:
+    name: Small Business Finance and Accounting
+    output: true
+    permalink: /:collection/:name.html
+
+  financial-scams-and-fraud-protection:
+    name: Financial Scams and Fraud Protection
+    output: true
+    permalink: /:collection/:name.html
+
+  estate-planning-and-inheritance:
+    name: Estate Planning and Inheritance
+    output: true
+    permalink: /:collection/:name.html
+    
+  side-hustles-and-extra-income:
+    name: Side Hustles and Extra Income
+    output: true
+    permalink: /:collection/:name.html
+
+  peer-to-peer-lending:
+    name: Peer-to-Peer Lending
+    output: true
+    permalink: /:collection/:name.html
+
+  bitcoin-and-cryptocurrency:
+    name: Bitcoin and Cryptocurrency
+    output: true
+    permalink: /:collection/:name.html
+
+  financial-planning:
+    name: Financial Planning
+    output: true
+    permalink: /:collection/:name.html
+
+  personal-finance:
+    name: Personal Finance
+    output: true
+    permalink: /:collection/:name.html
+
+# Gems
+plugins:
+  - jekyll-sitemap
